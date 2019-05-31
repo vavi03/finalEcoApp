@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CampoTexto1" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#AEAEAE</item>
+        <item name="colorControlActivated">#AEAEAE</item>
+        <item name="android:textColorHighlight">#DBCBFF</item>
+        <item name="android:textColorHint">#AEAEAE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusedByDefault">false</item>
+        <item name="android:fontFamily">@font/fredoka_one</item>
+
+    </style>
+
+
+
+</resources>

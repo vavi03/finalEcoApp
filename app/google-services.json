@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522583042847",
+    "firebase_url": "https://neuron-9174e.firebaseio.com",
+    "project_id": "neuron-9174e",
+    "storage_bucket": "neuron-9174e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522583042847:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522583042847-epjlgf72ogdu80r0vaq69jdipk66vstk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "660f6b2eafdb570d92ba2f93efb8fb71090f1ec0"
+          }
+        },
+        {
+          "client_id": "522583042847-rk029m315va78bj232qgdheo622sbnv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD72VJqZDX3ydj0qr2E1FcR_F93NI8u5y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522583042847-rk029m315va78bj232qgdheo622sbnv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

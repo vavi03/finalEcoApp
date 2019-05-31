@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_puesto_fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/primerpuesto" />
+
+    <ImageView
+        android:id="@+id/iv_puesto_avatar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/avataruno" />
+
+    <TextView
+        android:id="@+id/tv_puesto_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Usuario"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_puesto_puntaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_puesto_usuario"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="1.400"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".avatar"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondoavatar" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_carauno"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/check1"
+        android:text="ToggleButton"
+        android:textAlignment="center"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tbtn_avatar_carados"
+        app:layout_constraintEnd_toStartOf="@+id/tbtn_avatar_carados"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_carados"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="329dp"
+        android:background="@drawable/check2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_avatar_seleccionar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tbtn_avatar_carauno"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_caratres"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/check3"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/tbtn_avatar_caracuatro"
+        app:layout_constraintEnd_toStartOf="@+id/tbtn_avatar_caracuatro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tbtn_avatar_caracuatro" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_caracuatro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/check4"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/tbtn_avatar_caraseis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tbtn_avatar_caratres"
+        app:layout_constraintTop_toBottomOf="@+id/tbtn_avatar_carados" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_caracinco"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/check5"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/tbtn_avatar_caraseis"
+        app:layout_constraintEnd_toStartOf="@+id/tbtn_avatar_caraseis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tbtn_avatar_caraseis" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_avatar_caraseis"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/check6"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_avatar_seleccionar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tbtn_avatar_caracinco"
+        app:layout_constraintTop_toBottomOf="@+id/tbtn_avatar_caracuatro" />
+
+    <Button
+        android:id="@+id/btn_avatar_seleccionar"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/seleccionar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbtn_avatar_carados" />
+</android.support.constraint.ConstraintLayout>

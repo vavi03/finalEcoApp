@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrarse"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondoregistrarse" />
+
+    <Button
+        android:id="@+id/btn_registrarse_atras"
+        android:layout_width="36dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="369dp"
+        android:background="@drawable/vector"
+        app:layout_constraintBottom_toTopOf="@+id/edt_registrarse_correo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_registrarse_usuario"
+        style="@style/CampoTexto1"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/usuario"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textCapWords|textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:theme="@style/CampoTexto1"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registrarse_entrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_registrarse_correo"
+        style="@style/CampoTexto1"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/correo"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textCapWords|textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:theme="@style/CampoTexto1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registrarse_atras" />
+
+    <EditText
+        android:id="@+id/edt_registrarse_contrasena"
+        style="@style/CampoTexto1"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/contrasena"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:theme="@style/CampoTexto1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_registrarse_correo" />
+
+    <Button
+        android:id="@+id/btn_registrarse_entrar"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_registrarse_usuario" />
+</android.support.constraint.ConstraintLayout>
